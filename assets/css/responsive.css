@@ -1,0 +1,151 @@
+@media(max-width: 1700px)(
+)
+
+@media(min-width: 1400px) and (max-width: 1700px){
+	.swiper-slide{width: 543px;}
+	.slide-section {padding-bottom: 70px;}
+	.about-section {padding: 100px 0 90px;}
+
+	.feature-img {width: 40%; top: 8%;}
+}
+
+
+
+@media(max-width: 1199px){
+	.about-section {padding: 40px 0;}
+	.about-details h2, .perspective-content h2 {font-size: 26px;}
+	.about-details p, .perspective-content p {font-size: 13px;}
+
+	.feature-content h2 {font-size: 20px;}
+	.feature-img {width: 60%; top: 8%;}
+	.feature-title h2 {font-size: 38px;}
+
+	.perspective-section {padding: 150px 0;}
+
+	.opinion-content p {font-size: 16px;}
+	.opinion-info p{font-size: 13px;}
+
+	.download-title p {padding: 0;}
+	.download-title h2 {font-size: 30px;}
+
+	footer p {font-size: 14px;}
+	footer .nav-link{font-size: 14px;}
+}
+
+
+
+
+
+/* responsive lg device */
+@media(max-width: 991px){
+	.navbar-brand img{width: 80%;}
+	.banner-content h1 {font-size: 34px;}
+	.banner-content p {font-size: 15px;}
+
+
+	.about-img img {display: none;}
+	.about-details{text-align: center;}
+	.about-details h2, .perspective-content h2 {font-size: 30px;}
+
+	.mySwiper .swiper-slide { width: 300px;	height: auto;}
+
+	.feature-section {padding: 50px 0 20px;}
+	.feature-img .mobile-hide{display: none;}
+	.feature-img .desk-hide {display: block;}
+	.feature-img {position: relative; margin-bottom: 100px; width: 76%; margin-top: -30px;}
+	.feature-section .col-md-12{display: flex;}
+	.feature-content p {margin-right: 20px;}
+	.feature-content h2 {font-size: 20px;}
+
+	.perspective-section {padding: 50px 0;}
+	.perspective-img {z-index: -1; opacity: .3; width: 80%; top: 20%;}
+
+	.opinion-section {padding: 74px 0;}
+	.opinion-content p {font-size: 18px;}
+	.opinion-info p {font-size: 14px;}
+
+	.download-title h2 {font-size: 32px;}
+	.download-title p {font-size: 13px; padding: 0;}
+
+	footer .navbar-nav {justify-content: center;}
+	footer p {font-size: 15px; text-align: center;}
+	footer .nav-link {font-size: 15px; margin-bottom: 6px;}
+}
+
+/* responsive tablet device */
+@media(max-width: 767px){
+	.navbar-brand img{width: 68%;}
+	.banner-content h1 {font-size: 32px;}
+	.banner-content p {font-size: 15px; line-height: 32px;}
+
+	.about-section {padding: 0px 0 50px;}
+	.about-details h2, .perspective-content h2 {font-size: 30px;}
+	.about-details p, .perspective-content p {font-size: 14px;}
+
+	.feature-title h2 {font-size: 32px; margin-bottom: 60px;}
+	.feature-icon {display: flex; align-items: center; gap: 20px;}
+	.feature-section {padding: 60px 0 0px;}
+	.feature-section .col-md-12{display: inline;}
+	.feature-content p {font-size: 13px; margin-right: 0;}
+	.feature-img {margin-bottom: 69px; margin-top: 0px;}
+
+
+	.perspective-img {display: none;}
+	.perspective-section {padding: 100px 0 50px;}
+	.perspective-content{text-align: center;}
+	.perspective-icon i {width: 76px; height: 76px; line-height: 76px; border: 1px solid; border-radius: 50%;}
+
+	.download-title h2 {font-size: 32px;}
+	.download-title p {font-size: 13px; padding: 0 0px;}
+
+	footer {padding: 15px 0 24px;}
+}
+
+
+/* responsive mobile device */
+@media(max-width: 576px){
+	.navbar-brand img{width: 70%;}
+	.banner-content{padding: 60px 0 50px;}
+	.banner-content h1{font-size: 32px;}
+	.banner-content p{font-size: 15px; line-height: 32px;}
+	.banner-content .btn-banner, .about-details .btn-banner, .download-section .btn-banner, .offcanvas-btn .btn-banner {font-size: 13px;}
+
+
+	.mySwiper .swiper-slide { width: 300px;	height: auto;}
+	.about-details h2, .perspective-content h2 {font-size: 32px;}
+	.about-details p, .perspective-content p {font-size: 13px;}
+
+
+	.opinion-section {padding: 60px 0;}
+	.opinion-content p{font-size: 16px; line-height: 34px;}
+	.opinion-info p{font-size: 14px;} 
+
+}
+
+@media(max-width: 475px){
+	.about-details h2, .perspective-content h2, .feature-title h2 {font-size: 28px;}
+	.feature-content h2 {font-size: 20px;}
+	.download-title h2 {font-size: 30px;}
+
+	.mySwiper .swiper-slide { width: 340px;	height: auto;}
+	.download-title h2 {font-size: 27px;}
+	.perspective-content h2{font-size: 23px;}
+
+	.download-title h2 {font-size: 24px;}
+
+	footer p {font-size: 13px;}
+	footer .nav-link {font-size: 13px;}
+}
+@media(max-width: 320px){
+	.navbar-brand img {width: 58%;}
+	header .container-fluid{flex-wrap: revert !important;}
+	.navbar-toggler {margin-top: 10px;}
+	.navbar-toggler span {padding: 0.6px 12px;}
+
+	.feature-content h2 {font-size: 16px;}
+	.feature-icon i {font-size: 26px;}
+	.perspective-content h2 {font-size: 20px;}
+
+	.opinion-info{flex-direction: column;}
+	.offcanvas-title img {width: 60%;}
+}
